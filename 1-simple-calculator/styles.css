@@ -9,7 +9,7 @@ html {
 }
 
 section {
-    background-image: linear-gradient(135deg, #0F2027 40%, #203A43 10%, #2C5364 100%);
+    background-image: linear-gradient(135deg, #0F2027 40%, #2C5364 100%);
     min-height: 100vh;
     width: 100%;
     display: flex;
