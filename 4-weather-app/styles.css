@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://source.unsplash.com/random/?nature');
+    background-repeat:space;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+.card {
+    background: #000000d0;
+    padding: 1em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    color: whitesmoke;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: auto;
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 0.5em;
+    background-color: #7c7c7c2b;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: #7c7c7c9b;
+    color: whitesmoke;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    background-color: #7c7c7c2b;
+    height: 2em;
+    width: calc(100% - 80px);
+    max-width: 320px;
+}
+
+input {
+    color: whitesmoke;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 18px;
+    font-family: inherit;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
